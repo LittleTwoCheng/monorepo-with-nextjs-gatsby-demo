@@ -1,0 +1,13 @@
+{
+  "name": "@demo/api",
+  "private": true,
+  "description": "Contain All Api endpoint",
+  "version": "0.1.0",
+  "author": "Ben <chengsiuyee@gmail.hk>",
+  "license": "MIT",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1"
+  },
+  "devDependencies": {},
+  "peerDependencies": {}
+}

@@ -1,0 +1,22 @@
+{
+  "name": "@demo/component",
+  "private": true,
+  "description": "Contain All Shared React Component",
+  "version": "0.1.0",
+  "author": "Ben <chengsiuyee@gmail.hk>",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+      "classnames": "^2.2.6",
+      "prop-types": "^15.7.2",
+      "react": "^16.8.6",
+      "react-dom": "^16.8.6"
+  },
+  "peerDependencies": {
+      "classnames": "^2.2.6",
+      "prop-types": "^15.7.2",
+      "react": "^16.8.6",
+      "react-dom": "^16.8.6"
+  }
+}

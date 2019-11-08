@@ -1,0 +1,12 @@
+{
+  "name": "@demo/serverside",
+  "private": true,
+  "description": "Contain method only been used at Server side.",
+  "version": "0.1.0",
+  "author": "Ben <chengsiuyee@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lru-cache": "^5.1.1",
+    "qs": "^6.7.0"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "name": "monorepo-with-nextjs-gatsby-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/LittleTwoCheng/monorepo-with-nextjs-gatsby-demo",
+  "author": "chengsiuyee@gmail.com",
+  "license": "MIT",
+  "private": true,
+  "srcPaths": [
+    "./packages"
+  ],
+  "workspaces": [
+    "app/*",
+    "packages/@demo/*"
+  ],
+  "scripts": {
+    "test": "jest",
+    "dev": "NODE_ENV=development node script/portal.js --name=start",
+    "start": "node script/portal.js --name=start",
+    "prod": "NODE_ENV=production node script/portal.js --name=start",
+    "build": "node script/portal.js --name=build",
+    "deploy": "node script/deploy-interactive.js",
+    "analyze": "ANALYZE=1 node script/portal.js --name=build"
+  },
+  "eslintConfig": {
+    "extends": "react-app",
+    "rules": {
+      "jsx-a11y/anchor-is-valid": 0
+    }
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^24.8.0",
+    "chalk": "^2.4.2",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "1.2.0",
+    "inquirer": "^6.2.2",
+    "jest": "^24.8.0",
+    "jest-environment-enzyme": "^7.0.2",
+    "jest-enzyme": "^7.0.2",
+    "minimist": "^1.2.0",
+    "pm2": "^3.4.1",
+    "react-addons-test-utils": "15.6.2",
+    "react-test-renderer": "^16.8.6"
+  }
+}
