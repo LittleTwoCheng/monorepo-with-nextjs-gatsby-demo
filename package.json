@@ -19,7 +19,6 @@
     "start": "node script/portal.js --name=start",
     "prod": "NODE_ENV=production node script/portal.js --name=start",
     "build": "node script/portal.js --name=build",
-    "deploy": "node script/deploy-interactive.js",
     "analyze": "ANALYZE=1 node script/portal.js --name=build"
   },
   "eslintConfig": {
