@@ -23,7 +23,7 @@
       "@demo/api": "^0.1.0",
       "@demo/component": "^0.1.0",
       "@demo/serverside": "^0.1.0",
-      "next": "^8.0.4",
+      "next": "^9.3.3",
       "next-build-id": "^2.0.1",
       "next-i18next": "^0.36.5",
       "next-images": "^1.1.1",
